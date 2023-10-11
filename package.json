@@ -1,0 +1,15 @@
+{
+  "name": "youtubechannel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "live-server"
+  },
+  "author": "bugsdev2",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1"
+  }
+}

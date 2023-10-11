@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Every Frame a Painting</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+	<section class="nav h-25">
+		<nav class="main-nav">
+			<span class="bi bi-list"></span>
+			<div>
+				<span class="bi bi-house-door"></span>
+				<div>Home</div>
+			</div>
+			<div>
+				<span class="bi bi-film"></span>
+				<div>Shorts</div>
+			</div>
+			<div>
+				<span class="bi bi-collection-play"></span>
+				<div>Subscriptions</div>
+			</div>
+			<div>
+				<span class="bi bi-camera-video"></span>
+				<div>Library</div>
+			</div>
+		</nav>
+	</section>
+	<header class="d-flex align-items-center justify-content-between pt-2 pb-2">
+		<img src="public/youtube-logo.png" alt="youtube-logo" />
+		<div class="d-flex gap-3 w-50">
+			<div class="search-container d-flex input-group">
+				<input type="text" name="searchbox" class="form-control bg-dark text-light rounded-start-pill" placeholder="Search"/>
+				<button class="bi bi-search p-2 ps-3 pe-3  bg-dark text-light input-group-text rounded-end-circle"></button>
+			</div>
+			<span class="bi bi-mic-fill bg-dark rounded-pill p-2"></span>
+		</div>
+		<div>
+			<div class="d-flex gap-4 fs-4 me-5">
+				<span class="bi bi-camera-video"></span>
+				<span class="bi bi-bell"></span>
+				<span class="bi bi-person"></span>
+			</div>
+		</div>
+	</header>
+	<main class="channel-details">
+		<img src="public/channel-banner.png" alt="banner" class="w-100" />
+		<div class="d-flex justify-content-between mt-4">
+			<div class="d-flex">
+				<img src="public/channel-logo.png" alt="channel-logo" />
+				<div class="d-flex flex-column gap-2">
+					<div class="fs-4">Every Frame a Painting</div>
+					<div>
+						<span>@everyframeapainting</span>
+						<span>2.06M Subscribers</span>
+						<span>28 Videos</span>
+					</div>
+					<div>
+						<span>Every Frame a Painting was a series of video essays about film form... <span class="bi bi-chevron-right"></span></span>
+					</div>
+					<div><a href="javascript:void()" class="text-decoration-none">patreon.com/everyframeapainting</a> and 2 more links</div>
+				</div>
+			</div>
+			<div class="me-5">
+				<button class="btn btn-dark rounded-pill"> <span class="bi bi-bell me-2"></span> Subscribed <span class="bi bi-chevron-down ms-2"></span></button>
+			</div>
+		</div>
+	</main>
+	<nav class="channel-nav mt-3 ps-2 pe-2">
+		<ul>
+			<li>Home</li>
+			<li class="selected">Videos</li>
+			<li>Playlists</li>
+			<li>Community</li>
+			<li>Channels</li>
+			<li>About</li>
+			<li><span class="bi bi-chevron-right"></span></li>
+		</ul>
+	</nav>
+	<section class="videos-container d-flex flex-wrap gap-3 p-2">
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/IEfQ_9DIItI?si=G5-asFPfEvQPsZfc?modestbranding=1&showinfo=0&fs=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">Hollywood Scores & Soundtracks: What Do They Sound Like? Do They... </div>
+			<div class="info">1.6M views &middot; 7 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/7vfqkvwW2fs?si=U97IzVocLoZ29eo-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">The Marvel Symphonic Universe</div>
+			<div class="info">7.7M views &middot; 7 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/3Q3eITC01Fg?si=bhteyZARpcnJ8dT9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">How does an Editor Think and Feel?</div>
+			<div class="info">2.5M views &middot; 7 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/5UE3jz_O_EM?si=_D_jKGNPzDLIEguy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">Joel and Ethan Coen - Shot | Reverse Shot</div>
+			<div class="info">3.6M views &middot; 7 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/v4seDVfgwOg?si=AHlu-NLaSA7alZRS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">Memories of Murder (2003) - Ensemble Staging</div>
+			<div class="info">1.6M views &middot; 7 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/UWEjxkkB8Xs?si=Vjoh5L_UUXoFO_YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">Buster Keaton - The Art of the Gag</div>
+			<div class="info">7.4M views &middot; 7 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/ojm74VGsZBU?si=Xk41nIV6mnpk_WZm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">Vancouver Never Plays Itself</div>
+			<div class="info">2M views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/kHpXle4NqWI?si=oV17wSZItvIBlyF1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">Chuck Jones - The Evolution of an Artist</div>
+			<div class="info">4.3M views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/FfGKNJ4mldE?si=FYKGWmDrX-Q9utV6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">In Praise of Chairs</div>
+			<div class="info">1.2M views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/KjY9kf7TuUU?si=ecAoDhW3Y_EyNBG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">Lynne Ramsay - The Poetry of Details</div>
+			<div class="info">1.1M views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/1GXv2C7vwX0?si=VTmLHzAfhd2-J6WN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">F for Fake (1973) - How to Structure a Video Essay</div>
+			<div class="info">1M views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/doaQC-S8de8?si=hxTxJZ_gLnaSxlrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">Akira Kurosawa - Composing Movement</div>
+			<div class="info">9.3M views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/wsI8UES59TM?si=rDxhT_VKMq33GXoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title"> Drive (2011) - The Quadrant System</div>
+			<div class="info">1.7M views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/jGc-K7giqKM?si=aQp61NQby0zwwt6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">The Bad Sleep Well (1960) - The Geometry of a Scene</div>
+			<div class="info">840K views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/Z1PCtIaM_GQ?si=5Zm8NWIX1PFsQ6Mi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">Jackie Chan - How to do Action Comedy</div>
+			<div class="info">24M views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/X05TDsoSg2Y?si=czQkCfV3tzOfAPFf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">Snowpiercer - Left or Right</div>
+			<div class="info">1.7M views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/5V-k-p4wzxg?si=ccf-4CWA4nYq7UV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">The Silence of the Lambs - Who Wins the Scene?</div>
+			<div class="info">1.7M views &middot; 8 years ago</div>
+		</div>
+		<div>
+			<iframe class="rounded-4" src="https://www.youtube.com/embed/QPAloq5MCUA?si=ErWCbqczH2YqLKgT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="title">David Fincher - And the Other Way is Wrong</div>
+			<div class="info">4.2M views &middot; 8 years ago</div>
+		</div>
+		
+	</section>
+</body>
+</html>
